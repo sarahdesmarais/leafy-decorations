@@ -37,11 +37,14 @@ html {
 }
 
 .banner {
-  background: url("../images/banner.jpg");
+  background:
+    url("../images/banner.jpg"),
+    linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0));
   background-repeat: no-repeat;
   background-position: center bottom;
   color: #fff;
   background-size: cover;
+
 }
 
 .banner-content {
@@ -50,6 +53,7 @@ html {
   background-position: 1em 14em;
   background-size: 5em auto;
   padding-top: 20em;
+  border-bottom: 3px solid #2d5a4d;
 }
 
 @media only screen and (min-width: 60em) {
