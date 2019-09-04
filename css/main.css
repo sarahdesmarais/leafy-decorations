@@ -30,14 +30,26 @@ html {
 .nav a:hover {
   color: #145b1d;
   background-color: #fff;
+  background-image: url("../images/leaf-icon.svg");
+  background-repeat: no-repeat;
+  background-position: .75em;
+  background-size: 52px auto;
 }
 
 .banner {
-
+  background: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  color: #fff;
+  background-size: cover;
 }
 
 .banner-content {
-
+  background: url("../images/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-position: 1em 14em;
+  background-size: 5em auto;
+  padding-top: 20em;
 }
 
 @media only screen and (min-width: 60em) {
