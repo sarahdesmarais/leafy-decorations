@@ -3,7 +3,11 @@ html {
 }
 
 .masthead {
-
+  background-color: #588477;
+  background-image: url("");
+  border-top: 3px solid #2d5a4d;
+  border-bottom: 3px solid #2d5a4d;
+  color: #fff;
 }
 
 .logo {
@@ -23,7 +27,8 @@ html {
 }
 
 .nav a:hover {
-
+  color: #145b1d;
+  background-color: #fff;
 }
 
 .banner {
