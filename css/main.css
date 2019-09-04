@@ -44,15 +44,14 @@ html {
   background-position: center bottom;
   color: #fff;
   background-size: cover;
-
 }
 
 .banner-content {
   background: url("../images/two-leaves.svg");
   background-repeat: no-repeat;
-  background-position: 1em 14em;
-  background-size: 5em auto;
-  padding-top: 20em;
+  background-position: 10px 180px;
+  background-size: 100px auto;
+  padding-top: 300px;
   border-bottom: 3px solid #2d5a4d;
 }
 
